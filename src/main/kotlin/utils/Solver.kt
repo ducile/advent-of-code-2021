@@ -1,6 +1,6 @@
 package utils
 
-abstract class Solver(val day: Int) {
+abstract class Solver(private val day: Int) {
     private fun solve(part: String) {
         val input = readInputs(day)
 
